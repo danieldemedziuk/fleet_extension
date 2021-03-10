@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+
 {
+    # App information
+
     'name': 'Fleet extension',
-    'version': '1.0',
+    'version': '12.0',
     'author': 'Daniel Demedziuk',
-    'sequence': 110,
     'summary': 'Fleet, Insurance, Leasing, Odometer, Equipment',
+    'license': 'OPL-1',
     'description': """
 Fleet Module Extension
 ==================================
@@ -25,6 +29,9 @@ Updates to the module's current status are planned. In the future the module is 
 """,
     'website': 'website',
     'category': 'Tool',
+
+    # Dependencies
+
     'depends': ['base', 'mail', 'fleet'],
     'data': [
         'views/fleet_extension_view.xml',
