@@ -34,11 +34,7 @@ The odometer system was extended by additional fields. The purpose of this exten
 Updates to the module's current status are planned. In the future the module is to provide more beneficial services to the user.
 
 """,
-    'website': 'website',
-    'category': 'Tool',
-
-    # Dependencies
-
+    'category': 'Fleet, Tool',
     'depends': ['base', 'mail', 'fleet'],
     'data': [
         'views/fleet_extension_view.xml',
