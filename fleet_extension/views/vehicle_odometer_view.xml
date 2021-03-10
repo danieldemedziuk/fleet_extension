@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="fleet_vehicle_odometer_tree_inherit" model="ir.ui.view">
+            <field name="name">fleet.vehicle.odometer.tree.inherit</field>
+            <field name="model">fleet.vehicle.odometer</field>
+            <field name="inherit_id" ref="fleet.fleet_vehicle_odometer_view_tree"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='date']" position="attributes">
+                    <attribute name="invisible">False</attribute>
+                </xpath>
+                <xpath expr="//field[@name='driver_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <xpath expr="//field[@name='value']" position="attributes">
+                    <attribute name="invisible">False</attribute>
+                </xpath>
+                <xpath expr="//field[@name='unit']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='date']" position="after">
+                    <field name="date_return"/>
+                    <field name="driver"/>
+                    <field name="description"/>
+                    <field name="destination"/>
+                    <field name="start_counter"/>
+                    <field name="stop_counter"/>
+                    <field name="num_km"/>
+
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>
