@@ -9,7 +9,7 @@
     'author': 'Daniel Demedziuk',
     'summary': 'Fleet, Insurance, Leasing, Odometer, Equipment',
     'license': 'OPL-1',
-    'price':   15,
+    'price':   9,
     'currency':   'EUR',
     'description': """
 Fleet Module Extension
@@ -39,6 +39,7 @@ Updates to the module's current status are planned. In the future the module is 
         'views/fleet_extension_view.xml',
         'views/vehicle_odometer_view.xml',
         ],
+    'images': ['static/description/f_extension.jpg'],
     'auto_install': False,
     'application': True,
     'installable': True,
