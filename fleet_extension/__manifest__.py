@@ -5,7 +5,7 @@
     # App information
 
     'name': 'Fleet extension',
-    'version': '12.0',
+    'version': '1.0',
     'author': 'Daniel Demedziuk',
     'summary': 'Fleet, Insurance, Leasing, Odometer, Equipment',
     'license': 'OPL-1',
