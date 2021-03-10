@@ -9,6 +9,8 @@
     'author': 'Daniel Demedziuk',
     'summary': 'Fleet, Insurance, Leasing, Odometer, Equipment',
     'license': 'OPL-1',
+    'price':   15,
+    'currency':   'EUR',
     'description': """
 Fleet Module Extension
 ==================================
